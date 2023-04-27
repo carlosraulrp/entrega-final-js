@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+/* editando acceso */
+.ocultar{
+    display: none;
+}
+
+.cajaEstilo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+.inputLarge{
+    width: 30rem;
+}
+.btn{
+    width: 10rem;
+}
+/* --------------------------------------- */
+#contenedor{
+    justify-content: center;
+}
+#contenedor img{
+    width: 262.4px;
+    height: 262.4px;
+}
+
+#hijoHeader{
+    flex-direction: column;
+}
+
+#padreCategorias{
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+/* imagenes de los modales */
+.modal-contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.modal-body img{
+    width: 200px;
+    padding: 20px;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+    #padreCategorias{
+        flex-direction: row;
+    }
+}
